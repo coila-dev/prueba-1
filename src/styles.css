@@ -20,13 +20,17 @@ body {
 main{
     height: 100vh;
     width: 100vw;
+    margin: auto;
 }
 
 .c-atom {
-    position: relative;
+    position: block;
     width: var(--atomSize);
     height: var(--atomSize);
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .c-atom__nucleus, .c-atom__orbit, .c-atom__electron, .c-atom__orbitTrain, .c-atom__electronTrain {
     position: absolute;
